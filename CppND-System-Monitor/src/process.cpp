@@ -26,7 +26,7 @@ float Process::CpuUtilization() {
   
   long total_time = this->utime + this->stime + this->cutime + this->cstime;
   long seconds = cpu_uptime - ( this->starttime / clock_freq);
-  this->cpu_usage= 100 * ((total_time / clock_freq) / seconds);
+  this->cpu_usage= ((total_time / clock_freq) / seconds);
   //cout<<this->pid<<"\t"<<this->utime<<"\t"<<this->stime<<"\t"<<this->cutime<<"\t"<<this->cstime<<"\t"<<this->starttime<<"\n";
   //cout<<this->pid<<"\t"<<cpu_usage<<total_time<<"\t"<<seconds<<"\n";
   
