@@ -7,10 +7,8 @@ using std::string;
 using std::to_string;
 using std::cout;
 
-// TODO: Complete this helper function
-// INPUT: Long int measuring seconds
-// OUTPUT: HH:MM:SS
-// REMOVE: [[maybe_unused]] once you define the function
+//Complete this helper function
+
 
 string Format::string_conv(int data)
 {
@@ -24,7 +22,7 @@ string Format::ElapsedTime(long seconds) {
   int hours = seconds / 3600;
   int sec = seconds - (hours * 3600);
   int minutes = sec / 60;
-  //long int seconds_left = seconds - (hours * 3600) - (minutes * 60);
+  
   int seconds_left = sec%60;
   
   string hours_s = Format::string_conv(hours);
