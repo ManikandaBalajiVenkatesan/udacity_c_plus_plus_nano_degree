@@ -7,7 +7,7 @@ provided by Udacity was used as base.  Map in .osm format provided by Udacity is
 
 The program requests the coordinates of the desired start and goal point and the code automatically determines the nearby node in map and start to plan the path.
 
-![]("images/map_osm.png")
+![]("images/input.png")
 
 The desired path turns out to be.
 
