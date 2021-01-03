@@ -15,14 +15,11 @@ The desired path turns out to be.
 
 ## Cloning
 
-When cloning this project, be sure to use the `--recurse-submodules` flag. Using HTTPS:
+When cloning this project, be sure to use the . Using HTTPS:
 ```
-git clone https://github.com/udacity/CppND-Route-Planning-Project.git --recurse-submodules
+git clone https://github.com/ManikandaBalajiVenkatesan/udacity_c_plus_plus_nano_degree.git
 ```
-or with SSH:
-```
-git clone git@github.com:udacity/CppND-Route-Planning-Project.git --recurse-submodules
-```
+
 
 ## Dependencies for Running Locally
 * cmake >= 3.11.3
@@ -42,7 +39,7 @@ git clone git@github.com:udacity/CppND-Route-Planning-Project.git --recurse-subm
 ## Compiling and Running
 
 ### Compiling
-To compile the project, first, create a `build` directory and change to that directory:
+To compile the project, first enter "CppND-Route-Planning-Project", create a `build` directory and change to that directory:
 ```
 mkdir build && cd build
 ```
