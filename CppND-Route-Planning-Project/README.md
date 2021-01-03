@@ -1,6 +1,17 @@
 # Route Planning Project
 
-This repo contains the starter code for the Route Planning project.
+In this project A star algorithm has been implemented to find the optimal path between two points on a map using real map data from OpenStreetMap project. The starter code 
+provided by Udacity was used as base.  Map in .osm format provided by Udacity is used in this project.
+
+![]("images/map_osm.png")
+
+The program requests the coordinates of the desired start and goal point and the code automatically determines the nearby node in map and start to plan the path.
+
+![]("images/map_osm.png")
+
+The desired path turns out to be.
+
+![]("images/output_map.png")
 
 <img src="map.png" width="600" height="450" />
 
