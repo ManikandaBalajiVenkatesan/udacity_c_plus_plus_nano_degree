@@ -13,8 +13,6 @@ The desired path turns out to be.
 
 ![]("images/output_map.png")
 
-<img src="map.png" width="600" height="450" />
-
 ## Cloning
 
 When cloning this project, be sure to use the `--recurse-submodules` flag. Using HTTPS:
