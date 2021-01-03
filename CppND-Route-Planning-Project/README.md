@@ -3,15 +3,15 @@
 In this project A star algorithm has been implemented to find the optimal path between two points on a map using real map data from OpenStreetMap project. The starter code 
 provided by Udacity was used as base.  Map in .osm format provided by Udacity is used in this project.
 
-![]("images/map_osm.png")
+![](images/map_osm.png)
 
 The program requests the coordinates of the desired start and goal point and the code automatically determines the nearby node in map and start to plan the path.
 
-![]("images/input.png")
+![](images/input.png)
 
 The desired path turns out to be.
 
-![]("images/output_map.png")
+![](images/output_map.png)
 
 ## Cloning
 
