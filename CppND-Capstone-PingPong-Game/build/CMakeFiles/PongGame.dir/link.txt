@@ -1,0 +1,1 @@
+/usr/bin/g++-7  -std=c++17   CMakeFiles/PongGame.dir/src/main.cpp.o CMakeFiles/PongGame.dir/src/game.cpp.o CMakeFiles/PongGame.dir/src/controller.cpp.o CMakeFiles/PongGame.dir/src/renderer.cpp.o CMakeFiles/PongGame.dir/src/bat.cpp.o CMakeFiles/PongGame.dir/src/ball.cpp.o  -o PongGame -L/usr/lib/x86_64-linux-gnu  -lSDL2 
