@@ -2,6 +2,8 @@
 
 This project deals with optimization of memory and management through effective implementation of smart pointers and memory ownership concepts in a chatbot application. The project starter code was provided by Udacity which contains the chatbot application code.
 
+![](images/messages.png)
+
 The ChatBot code creates a dialogue where users can ask questions about some aspects of memory management in C++. After the knowledge base of the chatbot has been loaded from a text file, a knowledge graph representation is created in computer memory, where chatbot answers represent the graph nodes and user queries represent the graph edges. After a user query has been sent to the chatbot, the Levenshtein distance is used to identify the most probable answer. The code is fully functional as-is and uses raw pointers to represent the knowledge graph and interconnections between objects throughout the project.
 
 ## Dependencies for Running Locally
@@ -45,4 +47,4 @@ Core modifications done are as follows
 
 6. Modifying the code such that the object of "ChatBot" logic is created in chatlogic.cpp but it no longer holds responsible for its memory and instead it is being passed to the current node through move semantics and as the user interacts with the chatbot , that object moves to the latest node.
 
-![](images/message.png)
+
